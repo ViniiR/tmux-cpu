@@ -5,7 +5,7 @@ CURRENT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck source=scripts/helpers.sh
 source "$CURRENT_DIR/helpers.sh"
 
-gpu_temp_format="%2.0f"
+gpu_temp_format="%2.0f º"
 gpu_temp_unit="C"
 
 print_gpu_temp() {
